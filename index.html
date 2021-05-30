@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,900;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="main-header">
+                <h1>THE CODE REVIEW</h1>
+            </div>
+        </header>
+
+        <main>
+            <div class="main-body">
+                <div class="main-body-intro">
+                    <h2>Signup for our newsletter</h2>
+                    <p>Get the latest news on how your code is doing right in your inbox</p>
+                </div>
+                <form action="index.html" method="POST">
+                    <div class="main-form">
+                        <fieldset class="fieldset field1">
+                            <legend>Contact Information</legend>
+                            <div class="main-form-part">
+                                <div class="input-fields">
+                                    <label for="name">Full Name</label>
+                                    <input type="text" id="name" name="user-name" placeholder="Required" required>
+                                </div>
+                                <div class="input-fields">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="user-email" placeholder="Required" required>
+                                </div>
+                                <div class="input-fields">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="user-phone">
+                                </div>
+                                <div class="input-fields">
+                                    <label for="address">Street Address</label>
+                                    <input type="text" id="address" name="user-address">
+                                </div>
+                                <div class="input-fields">
+                                    <label for="city">City</label>
+                                    <input type="text" id="city" name="user-city" placeholder="Example: Seattle">
+                                </div>
+                                <div class="input-fields">
+                                    <label for="state">State</label>
+                                    <select id="state" name="user-state">
+                                        <option value="" disabled selected hidden>Choose State</option>
+                                        <option value="AZ">Arizona</option>
+                                        <option value="CA">California</option>
+                                        <option value="GA">Georgia</option>
+                                        <option value="HI">Hawaii</option>
+                                        <option value="WA">Washington</option>
+                                    </select>
+                                </div>
+                                <div class="input-fields arrangezip">
+                                    <label for="zip">Zip Code</label>
+                                    <input type="text" id="zip" name="user-zip">
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset class="fieldset">
+                            <legend>Newsletter</legend>
+                            <div class="checkpref">
+                                <label>Select the newsletters you would like to receive</label>
+                                <div class="options-part">
+                                    <div class="first-choice">
+                                        <input type="checkbox" id="html-news" name="selected-newsletters" value="html">
+                                        <label for="html-news">HTML News</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="css-news" name="selected-newsletters" value="css">
+                                        <label for="css-news">CSS News</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="Javascript-news" name="selected-newsletters"
+                                            value="javascript">
+                                        <label for="Javascript-news">Javascript News</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkpref">
+                                <label>Newsletter format</label>
+                                <div class="options-part">
+                                    <div class="first-choice">
+                                        <input type="radio" id="html-format" name="selected-format" value="html-format">
+                                        <label for="html-format">HTML</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="Plain-text-format" name="selected-format"
+                                            value="Plain-text-format">
+                                        <label for="Plain-text-format">Plain text</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-fields othertopic">
+                                <label for="other-topics">Other topics you'd like to hear about</label>
+                                <textarea id="other-topics" name="user-topics" rows="4"
+                                    placeholder="Can Be Anything Tech Related"></textarea>
+                            </div>
+                        </fieldset>
+                        <div class="fieldset">
+                            <button type="submit">Sign Up</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="main-footer">
+                <p>Copyright The Code Review</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
