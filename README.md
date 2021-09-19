@@ -1,6 +1,6 @@
 # Project Title
 
-Newsletter Sign-Up Form
+Sign-Up Form
 
 ### Goal of the project
 
