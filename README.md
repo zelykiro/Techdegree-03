@@ -1,2 +1,12 @@
-# Techdegree-03
- Unit-03 project from the Treehouse FEWD techdegree course
+# Project Title
+
+Newsletter Signup Form
+
+### Goal of the project
+
+- To build a responsive, mobile-first registration form using a variety of HTML form elements
+
+### Built With
+
+- CSS
+- HTML
